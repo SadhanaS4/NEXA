@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+.app {
+  overflow-x: hidden;
+}
+
+section {
+  padding: 8rem 4rem;
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.hero {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta {
+  background: #14B8A6;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.train {
+  position: absolute;
+  bottom: 20%;
+  font-size: 2rem;
+}
+
+.rail-lines {
+  width: 80%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #14B8A6, transparent);
+  margin: 2rem 0;
+}
+
+.pass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 3rem;
+  max-width: 400px;
+  margin: auto;
+}
+
+.qr {
+  background: #14B8A6;
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details {
+  margin-top: 2rem;
+}
+
+.chat-ui {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+.bubble {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 1rem 2rem;
+  text-align: left;
+}
+
+.route {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.station {
+  font-size: 1.2rem;
+  color: #14B8A6;
+}
+
+.train-icon {
+  font-size: 2rem;
+}
+
+.metrics {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.metric {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 2rem;
+  width: 200px;
+}
+
+.phone-mockup {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border-radius: 24px;
+  padding: 2rem;
+  max-width: 300px;
+  margin: auto;
+}
+
+.screen {
+  background: #14B8A6;
+  padding: 1rem;
+  border-radius: 12px;
+  color: #000;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-bottom: 3rem;
+}
+
+.stat h3 {
+  font-size: 3rem;
+  color: #14B8A6;
+}
+
